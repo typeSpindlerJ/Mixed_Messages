@@ -7,7 +7,7 @@ const generateRandNum2 = num => {
 }
 //Store the arrays with the quotes
 const programmingQuotes = {
-    shortQuote: ["Talk is cheap, shoe me the code" "Yeah, well that`'s Just, Like, Your Opinion, Man." , "How you look at it is pretty much how you'll see it" , "Truth can only be found in one place: the code"]
+    shortQuote: ["Talk is cheap, shoe me the code" , "How you look at it is pretty much how you'll see it" , "Truth can only be found in one place: the code"]
 };
 const programmingQuotes2 = {
     shortQuote2: ["A constant quest to be myself" , "If we don't fight, who's gonna eat", "Tomorrow isn't promised in coding"]
@@ -19,7 +19,7 @@ for (let i in programmingQuotes) {
     let index = generateRandNum(programmingQuotes[i].length);
     switch(i) {
         case 'shortQuote' :
-            selectedQuote.push(`Your dope programming quote is "${programmingQuotes[i][index]}".`)
+            selectedQuote.push(`Your programming quote is "${programmingQuotes[i][index]}".`)
             break;
     };
 };
