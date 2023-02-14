@@ -1,1 +1,1 @@
-This is our project from Codecademy
+Group project from Codecademy
