@@ -1,1 +1,1 @@
-Group project from Codecademy
+Group project from Codecademy using Git with multiple people
