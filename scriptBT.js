@@ -31,11 +31,13 @@ for (let i in programmingQuotes2) {
         selectedQuote2.push(`The quote you shared is "${programmingQuotes2[i][index2]}".`)
     }
 }
+
 //Format output to look nice
 const getQuotes = selectedQuote => {
     const formatted = selectedQuote.join('\n')
     console.log(formatted)
 };
+
 const getQuotes2 = selectedQuote2 => {
     const formatted = selectedQuote2.join('\m')
     console.log(formatted)
